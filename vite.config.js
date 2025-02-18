@@ -1,6 +1,8 @@
 import { resolve } from "path";
 import { defineConfig } from "vite";
 import tailwindcss from "@tailwindcss/vite";
+import { ViteMinifyPlugin } from "vite-plugin-minify";
+
 
 export default defineConfig({
   root: resolve(__dirname, "src"),
